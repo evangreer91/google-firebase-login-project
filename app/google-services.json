@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "252065318862",
+    "project_id": "login-sample-be4ae",
+    "storage_bucket": "login-sample-be4ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252065318862:android:0cb168dc59369fb2620d9f",
+        "android_client_info": {
+          "package_name": "com.example.android.firebaseui_login_sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252065318862-6ustkf1fevo9j2ssmr656f2bdt7uf11d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM8SM9A3bLAIagvwYIEe4RKFyU3XwBP7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252065318862-6ustkf1fevo9j2ssmr656f2bdt7uf11d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
