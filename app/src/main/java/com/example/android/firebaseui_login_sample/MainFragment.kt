@@ -56,10 +56,16 @@ class MainFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         observeAuthenticationState()
 
+        // add navigation call to on click listener for settings button
+        binding.settingsBtn.setOnClickListener {
+            val action = MainFragmentDirections.actionMainFragmentToSettingsFragment()
+            findNavController().navigate(action)
+        }
         // add launchSignInFlow call to on click listener for login button
         binding.authButton.setOnClickListener {
             launchSignInFlow()
         }
+
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
