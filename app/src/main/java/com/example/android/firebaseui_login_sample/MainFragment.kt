@@ -86,10 +86,6 @@ class MainFragment : Fragment() {
     private fun observeAuthenticationState() {
         val factToDisplay = viewModel.getFactToDisplay(requireContext())
 
-        // TODO If there is no logged in user, authButton should display Login and launch the sign
-        //  in screen when clicked. There should also be no personalization of the message
-        //  displayed.
-
         // use the authenticationState variable from LoginViewModel to update UI accordingly
         viewModel.authenticationState.observe(viewLifecycleOwner, Observer { authenticationState ->
             when (authenticationState) {
