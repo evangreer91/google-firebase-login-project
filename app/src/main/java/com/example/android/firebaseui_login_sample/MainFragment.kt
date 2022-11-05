@@ -132,7 +132,7 @@ class MainFragment : Fragment() {
                 .createSignInIntentBuilder()
                 .setAvailableProviders(providers)
                 .build(),
-            MainFragment.SIGN_IN_REQUEST_CODE
+            SIGN_IN_REQUEST_CODE
         )
     }
 }
